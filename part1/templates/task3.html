@@ -5,8 +5,8 @@
     <title>Task2</title>
 </head>
 <body>
-{% for key in a %}
-  <p>{{a.key}}</p>
+{% for key, value in user_dict.items() %}
+  <p>{{ key }} {{value}}</p>
 {%endfor%}
 </body>
 </html>
